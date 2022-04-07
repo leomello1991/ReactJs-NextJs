@@ -13,7 +13,7 @@ class Home extends Component {
     allPosts: [],
     searchValue: "",
     page: 0,
-    postsPerPage: 2,
+    postsPerPage: 10,
   };
 
   async componentDidMount() {
